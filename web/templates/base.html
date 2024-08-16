@@ -15,17 +15,13 @@
     <div class="container">
         <header>
             {% block header %}
-            <div style="background: red;">
-                <img src="{% static 'img/logo.png'%}" alt="" class="">
-            </div>
+            {% include 'snippets/header.html' %}
             {% endblock %}
         </header>
 
         <nav>
             {% block navbar %}
-                <div style="background: yellow;">
-                    navbar
-                </div>
+            {% include 'snippets/navbar.html' %}
             {% endblock %}
         </nav>
 
