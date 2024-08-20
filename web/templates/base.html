@@ -14,28 +14,28 @@
 <body>
     <div class="container">
         <header>
-            {% block header %}
-            {% include 'snippets/header.html' %}
-            {% endblock %}
+      
+            {% include 'header.html' %}
+            
         </header>
 
         <nav>
-            {% block navbar %}
-            {% include 'snippets/navbar.html' %}
-            {% endblock %}
+            
+            {% include 'navbar.html' %}
+          
         </nav>
 
 
         <main>
             {% block content %}
-            Contenido del proyecto
+          
             {% endblock %}
         </main>
 
         <footer>
-            {% block footer %}
+            
             {% include 'footer.html' %}
-            {% endblock %}
+            
         </footer>
     </div>
 
