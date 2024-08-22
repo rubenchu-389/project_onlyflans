@@ -1,4 +1,4 @@
-Pasos del Hito-1
+Pasos del Hito-1, Hito-2, Hito-3, Hito-4
 
 1) Se crea un entorno virtual:
     * python3 -m venv onlyflans
@@ -18,3 +18,9 @@ Pasos del Hito-1
 
 5) Se crea un servidor:
     * python3  manage.py run server 
+
+### Se comienza el Hito-3
+
+6) Se modofica el navbar cambiando color de la barra
+
+
