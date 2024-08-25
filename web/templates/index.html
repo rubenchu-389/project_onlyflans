@@ -1,8 +1,23 @@
 {% extends 'base.html' %}
-{% block content %}
-    <h1> Bienvenido Index</h1>
-{% endblock %}
 
+
+{% block content %}
+<h1> Catalogo de Flanes</h1>
+<div class="row">
+    {% for flan in flanes %}
+        <div class="col-3">
+            <div class="card" style="width: 18rem;">
+                <img src="{{ flan.image_url }}" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">{{ flan.name}}</h5>
+                    <p class="card-text">{{ flan.description }}</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+</div>
+{% endblock %}
 
 
 
