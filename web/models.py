@@ -20,5 +20,17 @@ class Flan(models.Model):
         return f'{name} - ¿Es privado?: {es_privado}'
     
        
+       
+class Contact(models.Model):
+    name = models.CharField(max_length=50)
+    image_url = models.CharField(max_length=100)
+    mensaje =models.CharField(max_length=500)
+    is_private = models.BooleanField(default=False)
+    
+    def __str__(self):
+        name = self.name 
+        message = self.mensaje
+        return f'{name} : {message}'
+    
     
     
