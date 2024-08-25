@@ -26,3 +26,7 @@ Pasos del Hito-1, Hito-2, Hito-3, Hito-4
 7) Se crean los models para agregrar los flans al admin 
 
 8) se Agregan los flanes al archivo index.html
+
+9) Se separan los flanes publicos de los privados en el indez y en bienvenidos
+
+10) 

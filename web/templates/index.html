@@ -2,12 +2,12 @@
 
 
 {% block content %}
-<h1> Catalogo de Flanes</h1>
+<h1> Catalogo de Flanes Publicos</h1>
 <div class="row">
     {% for flan in flanes %}
         <div class="col-3">
             <div class="card" style="width: 18rem;">
-                <img src="{{ flan.image_url }}" class="card-img-top" alt="...">
+                <img src="{{ flan.image_url }}" class="card-img-top card-img-top .card " alt="...">
                 <div class="card-body">
                     <h5 class="card-title">{{ flan.name}}</h5>
                     <p class="card-text">{{ flan.description }}</p>
