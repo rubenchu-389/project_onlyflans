@@ -24,3 +24,5 @@ Pasos del Hito-1, Hito-2, Hito-3, Hito-4
 6) Se modofica el navbar cambiando color de la barra
 
 7) Se crean los models para agregrar los flans al admin 
+
+8) se Agregan los flanes al archivo index.html
