@@ -9,7 +9,5 @@ urlpatterns = [
     path('bienvenido/', welcome, name='welcome'),
     path('contacto/', contact, name='contact'),
     path('exito/', success, name='success'),
-    
-    
-]
+] 
 

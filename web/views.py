@@ -7,16 +7,16 @@ from web.forms import ContactForm
 def index(request):
     flanes_publicos = Flan.objects.filter(is_private=False)
     context = {
-       'flanes': flanes_publicos
-           
-    }
+       'flanes': flanes_publicos,
+       
+   }
     return render(request, 'index.html', context)
 
-
+ 
 
 
 def about(request):
-    return render(request, 'about.html', {})
+    return render(request, 'about.html')
 
 def welcome(request): 
     flanes_privados = Flan.objects.filter(is_private=True)
@@ -26,7 +26,7 @@ def welcome(request):
     }
     
     return render(request, 'welcome.html', context)
-
+  
 
 def contact(request):
     if request.method == 'GET':
@@ -34,14 +34,14 @@ def contact(request):
        context = {'form' : form}
        return render(request, 'contact.html', context)
     else: 
-       form = ContactForm(request.POST)
-       if form.is_valid():
-          Contact.objects.create(
+        form = ContactForm(request.POST)
+        if form.is_valid():
+            Contact.objects.create(
                 **form.cleaned_data
-          ) 
-          return redirect('/success')
-       context = {'form' : form}
-       return render(request, 'contact.html', context)
+            ) 
+            return redirect('success')
+        context = {'form' : form}
+        return render(request, 'contact.html', context)
     
     
     

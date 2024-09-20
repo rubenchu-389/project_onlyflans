@@ -5,9 +5,9 @@
 <h1> Catalogo de Flanes Publicos</h1>
 <div class="row">
     {% for flan in flanes %}
-        <div class="col-3">
+        <div class="col">
             <div class="card" style="width: 18rem;">
-                <img src="{{ flan.image_url }}" class="card-img-top card-img-top .card " alt="...">
+                <img src="{{ flan.image_url }}" class="card-img-top card-img-top .card " alt="flan image">
                 <div class="card-body">
                     <h5 class="card-title">{{ flan.name}}</h5>
                     <p class="card-text">{{ flan.description }}</p>

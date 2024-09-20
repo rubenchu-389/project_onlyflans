@@ -22,13 +22,13 @@ class Flan(models.Model):
        
        
 class Contact(models.Model):
-    name = models.CharField(max_length=50)
-    image_url = models.CharField(max_length=100)
-    mensaje =models.CharField(max_length=500)
-    is_private = models.BooleanField(default=False)
+    nombre = models.CharField(max_length=50)
+    email = models.CharField(max_length=100)
+    mensaje = models.CharField(max_length=500)
+    
     
     def __str__(self):
-        name = self.name 
+        name  = self.nombre 
         message = self.mensaje
         return f'{name} : {message}'
     

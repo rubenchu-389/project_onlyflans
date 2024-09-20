@@ -1,4 +1,4 @@
-Pasos del Hito-1, Hito-2, Hito-3, Hito-4
+### Pasos del Hito-1, Hito-2
 
 1) Se crea un entorno virtual:
     * python3 -m venv onlyflans
@@ -21,12 +21,16 @@ Pasos del Hito-1, Hito-2, Hito-3, Hito-4
 
 ### Se comienza el Hito-3
 
-6) Se modofica el navbar cambiando color de la barra
+6) Se modifica el navbar cambiando color de la barra
 
 7) Se crean los models para agregrar los flans al admin 
 
-8) se Agregan los flanes al archivo index.html
+8) Se agregan los flanes al archivo index.html
 
-9) Se separan los flanes publicos de los privados en el indez y en bienvenidos
+9) Se separan los flanes publicos de los privados en el index y en bienvenidos
 
-10) 
+10) se crea formulario de conctacto 
+
+11) Se crea el boton contacto en el navbar para ingresar los datos como nombre, correo y texto, se redirigue al exito dejando el mensaje
+
+12) Se hacen las respectivas migraciones 
