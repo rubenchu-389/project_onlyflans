@@ -31,7 +31,7 @@
 
 10) se crea formulario de conctacto 
 
-11) Se crea el boton contacto en el navbar para ingresar los datos como nombre, correo y texto, se redirigue al exito dejando el mensaje
+11) Se crea el boton contacto en el navbar para ingresar los datos como nombre, correo y texto, se redirigue al exito dejando el mensaje    
 
 12) Se hacen las respectivas migraciones 
 
@@ -39,4 +39,6 @@
 ### Hito-4
 
 13) Se agregan las funciones para la autenticaion de los usuarios como lo es el login y logout 
+
+14) Agregar decorador login_required en las vistas (welcome) de manera que no permita a usuarios no registrados acceder a la página de Bienvenida
 
