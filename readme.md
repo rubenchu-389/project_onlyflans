@@ -42,3 +42,6 @@
 
 14) Agregar decorador login_required en las vistas (welcome) de manera que no permita a usuarios no registrados acceder a la página de Bienvenida
 
+15) Se crean usuarios en el admin 
+
+
