@@ -45,6 +45,11 @@
 15) Se crean usuarios en el admin 
 
 
+### Hito-5
+
+16) Se modifica el navbar y el  footer para tenet mejor estilo en la vista
+
+
 
 
 link: https://github.com/rubenchu-389/project_onlyflans.git
