@@ -47,9 +47,17 @@
 
 ### Hito-5
 
-16) Se modifica el navbar y el  footer para tenet mejor estilo en la vista
+16) Se modifica el navbar y el  footer para tener mejor estilo en la vista
+
+17) Se crea la funcion de registrar usuarios sin necesidad que el admin sea quien solo los registre 
+
+
+
 
 
 
 
 link: https://github.com/rubenchu-389/project_onlyflans.git
+
+
+
